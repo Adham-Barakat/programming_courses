@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #000000;
+    background-color: #000;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -123,13 +123,6 @@ section {
     flex-wrap: wrap;
 }
 
-.projects {
-    background-color: #000016;
-}
-
-.projects .content {
-    margin-top: 30px;
-}
 
 .project-card {
     background-color: #fff;
@@ -214,7 +207,9 @@ section.cards {
     font-weight: 700;
     margin: 10px;
 }
-
+.text{
+    color: #4e9eff;
+}
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
